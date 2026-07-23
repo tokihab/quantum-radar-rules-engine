@@ -2,7 +2,7 @@
 
 A traffic radar simulation built around an extensible **Rules Engine** using the **Strategy Pattern**. The system evaluates vehicle observations (speed, seatbelt status, etc.) against a set of pluggable rules and generates fines — without ever needing to modify the core `RadarSystem` class when new rules are added.
 
-Implementations are provided in both **C# (.NET)** and **Java**, along with a matching unit test suite for each.
+Implementations are provided in **Java**, along with a matching unit test suite for each.
 
 ---
 
@@ -89,4 +89,4 @@ Both implementations ship with a full test suite that mocks the rule stream so t
 
 ## Source
 
-Originally drafted via Gemini Pro, based on the requirements in `nsquare - quantum Radar - slope12.pdf`.
+based on the requirements in `nsquare - quantum Radar - slope12.pdf`.
